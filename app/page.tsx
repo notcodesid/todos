@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/appbar";
+import FeatureSection from "@/components/FeatureSection";
 import { HeroSection } from "@/components/herosection";
 import { ImageEffect } from "@/components/image";
 import { StarEffect } from "@/components/starteffect";
@@ -10,6 +11,7 @@ export default function Home() {
    <Navbar/>
    <HeroSection/>
    <ImageEffect />
+   <FeatureSection />
    </div>
    </>
   );

@@ -5,8 +5,7 @@ import { BorderBeam } from "./magicui/border-beam"
 export function ImageEffect() {
     return (
         <>
-        <div className="relative ml-5 md:ml-[6.5rem] flex justify-center items-center ">
-            <BorderBeam size={250} duration={12} delay={9} />
+        <div className="relative ml-5  flex justify-center items-center ">
           <Image
             src={HeroImage}
             alt="DarkMail Email Client Interface"
@@ -14,7 +13,7 @@ export function ImageEffect() {
             height={675}
             className="rounded-lg"
           />
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent rounded-b-lg"></div>
+          <BorderBeam size={250} duration={12} delay={9} />
         </div>
         </>
     )
