@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/appbar";
 import FeatureSection from "@/components/FeatureSection";
+import Footer from "@/components/Footer";
 import { HeroSection } from "@/components/herosection";
 import { ImageEffect } from "@/components/image";
 import { MarqueeDemo } from "@/components/reviews";
@@ -14,6 +15,7 @@ export default function Home() {
    <ImageEffect />
    <FeatureSection />
    <MarqueeDemo />
+   <Footer />
    </div>
    </>
   );
