@@ -16,6 +16,16 @@ const config: Config = {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
   			},
+			  animation: {
+				"border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+			  },
+			  keyframes: {
+				"border-beam": {
+				  "100%": {
+					"offset-distance": "100%",
+				  },
+				},
+			  },
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))'

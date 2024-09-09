@@ -9,12 +9,11 @@ export function HeroSection(){
         </Link> */}
         
         <h1 className="text-5xl sm:text-7xl font-bold mb-6 max-w-4xl">
-          TaskMaster is the new way to organize your life.
+          Todos is the new way to organize your life.
         </h1>
         
         <p className="text-xl text-gray-400 mb-8 max-w-2xl">
-          Effortlessly manage your tasks with our intuitive, beautifully designed todo app.
-          Built with cutting-edge technology for seamless productivity.
+        Manage your tasks easily with our simple and beautiful to-do app. It built with the latest technology to help you get things done smoothly.
         </p>
         
         <Link href="#get-started" className="bg-white text-black px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-200">
