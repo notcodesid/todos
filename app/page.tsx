@@ -2,6 +2,7 @@ import { Navbar } from "@/components/appbar";
 import FeatureSection from "@/components/FeatureSection";
 import { HeroSection } from "@/components/herosection";
 import { ImageEffect } from "@/components/image";
+import { MarqueeDemo } from "@/components/reviews";
 import { StarEffect } from "@/components/starteffect";
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
    <HeroSection/>
    <ImageEffect />
    <FeatureSection />
+   <MarqueeDemo />
    </div>
    </>
   );
